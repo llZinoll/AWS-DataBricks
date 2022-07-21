@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(
+      to right,
+      pink 0%,
+      pink 50%,
+      paleturquoise 50%,
+      paleturquoise 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(
+      to right,
+      red 0%,
+      red 50%,
+      white 50%,
+      white 100%
+    );
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+
+
+  body {
+    background-image: url('w3css.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }

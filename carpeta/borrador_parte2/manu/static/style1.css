@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+    to top,
+    pink 0%,
+    pink 50%,
+    paleturquoise 50%,
+    paleturquoise 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+}

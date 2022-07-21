@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Prediction</title>
+    </head>
+    <style>
+        *{
+            padding:0;
+            margin:0
+        }
+        body{
+            display: inline-flex;
+            width: 100%;
+        }
+        #cuerpo{
+            width: 50%;
+            background-color: black;
+            color:white;
+            font-size: 80px;
+            
+        }
+        #cuerpo h3{
+            margin-left:50px;
+            margin-top: 500px;
+            font-size: 30px;
+        }
+        #cuerpo h1{
+            margin-left:50px;
+            color:yellow
+        }
+
+        #imagen{
+            width: 50%;
+
+        }
+        #imagen img{
+            height: 900px;
+        }
+    </style>
+
+    <body>
+        <div id="cuerpo">
+            <h3>Se alquilarán</h3>
+            <h1>{{ data }}</h1>
+        </div>
+        <div id="imagen">
+            <img src="{{ url_for('static' ,filename = 'patron_bici.jpeg') }}">
+        </div>
+    </body>
+
+</html>
